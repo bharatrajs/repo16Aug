@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SessionSuite" parallel="tests">
+
+
+
+
+<test name="Login Test">
+    <classes>
+        <class name="com.bharat.framework.testcases.LoginTest" ></class>  
+    </classes>
+</test>
+
+</suite>
+
